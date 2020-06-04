@@ -16,8 +16,8 @@ quantities = []
   cart.each do |items|
    items.each do |item, name|
       if 
+      else
       end
-      
-        
+  end
 quantities
 end
