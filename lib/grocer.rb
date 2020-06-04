@@ -14,11 +14,13 @@ end
 def consolidate_cart(cart)
 quantities = []
 consolidated = {}
-cart.each do |list|
-  list.each do |item, characteristics|
-  consolidated[item] || = characteristics
-  consolidated[item][:count] ? consolidated[item][:count] +=1 : consolidated[item][:count] = 1
- end
- end
-quantities 
+
+|items_array| 
+    items_array.each do |item, attribute_hash| 
+      new_cart[item] ||= attribute_hash 
+      new_cart[item][:count] ? new_cart[item][:count] += 1 :   
+      new_cart[item][:count] = 1 
+  end 
+end 
+new_cart 
 end
