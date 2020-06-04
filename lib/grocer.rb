@@ -16,7 +16,7 @@ quantities = []
 consolidated = {}
 cart.each do |list|
   list.each do |item, characteristics|
-   if 
+    consolidated
    else
    end
    quantities << consolidated
