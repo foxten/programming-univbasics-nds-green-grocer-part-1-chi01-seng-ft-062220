@@ -16,7 +16,7 @@ quantities = []
 consolidated = {}
 cart.each do |list|
   list.each do |item, characteristics|
-    consolidated[item].include? characteristics
+    consolidated[item]==characteristics
     if consolidated[item][:count]
       consolidated[item][:count] +=1
     else 
