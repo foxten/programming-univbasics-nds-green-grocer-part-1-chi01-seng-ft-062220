@@ -20,6 +20,7 @@ def consolidate_cart(cart)
         if quantities_item != nil
           quantities_item[:count] += 1
         else
+          quantities_item = 
           quantities_item[:count] = 1
         end
      i +=1
