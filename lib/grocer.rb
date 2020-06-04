@@ -19,7 +19,7 @@ quantities = []
         quantities[:item] == list[:item]
         quantities[:item][:count] += 1
       else
-        quantities[:item]
+        quantities[:item] = 
     end
   end
 quantities
