@@ -14,5 +14,6 @@ end
 def consolidate_cart(cart)
 quantities = []
 consolidated = {}
-
+cart.each do |list|
+  list.each do |
 end
