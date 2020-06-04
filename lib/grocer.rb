@@ -18,7 +18,7 @@ consolidated = {}
    list.each do |item, name|
       if consolidated[item] == nil
         consolidated[item] == list[item]
-        consolidated[count] +=1
+        consolidated[:count] +=1
       else
     end
   end
