@@ -17,6 +17,7 @@ def consolidate_cart(cart)
   while i<cart.length do 
     cart[i][:count] = 0
       quantities << cart[i]
+      if 
   end
   quantities
 end
