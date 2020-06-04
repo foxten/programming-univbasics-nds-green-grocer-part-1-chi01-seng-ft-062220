@@ -17,10 +17,10 @@ consolidated = {}
   cart.each do |list|
    item = list.keys[0]
       if consolidated[item]
-        
+        consolidated[item][:count] +=1
       else
         consolidated[item] == list[item]
-        consolidated[item][:count] +=1
+        consolidated[item][:count] =1
     end
   quantities << consolidated
 end
