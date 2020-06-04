@@ -19,8 +19,6 @@ consolidated = {}
       if consolidated[item] == nil
         consolidated[item] == list[item]
         consolidated[item][:count] +=1
-      else
-    end
   end
   quantities << consolidated
 end
