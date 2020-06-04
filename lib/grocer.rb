@@ -12,4 +12,11 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 def consolidate_cart(cart)
+  quantities = []
+  i = 0
+  while i<cart.length do 
+    cart[i][:count] = 0
+      quantities << cart[i]
+  end
+  quantities
 end
