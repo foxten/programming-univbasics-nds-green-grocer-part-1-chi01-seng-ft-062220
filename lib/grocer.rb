@@ -16,7 +16,7 @@ quantities = []
 consolidated = {}
   cart.each do |list|
    item = list.keys[0]
-      if consolidated[item] == nil
+      if consolidated[item]
         
       else
         consolidated[item] == list[item]
