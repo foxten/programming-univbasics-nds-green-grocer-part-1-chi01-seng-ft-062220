@@ -15,7 +15,7 @@ def consolidate_cart(cart)
 quantities = []
 consolidated = {}
   cart.each do |list|
-   list.each do |item, name|
+   item = list.
       if consolidated[:item] == nil
         consolidated[:item] == list[:item]
         consolidated[:count] +=1
