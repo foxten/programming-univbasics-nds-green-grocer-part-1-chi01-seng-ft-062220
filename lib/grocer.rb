@@ -16,7 +16,7 @@ quantities = []
   cart.each do |list|
    list.each do |item, name|
       if list[item] == quantities[item]
-        quantities[:count] +=1
+        quantities[count] +=1
     end
   end
 end
