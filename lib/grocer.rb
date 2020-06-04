@@ -17,7 +17,7 @@ quantities = []
    items.each do |item, name|
       if 
       else
-      end
+    end
   end
 quantities
 end
