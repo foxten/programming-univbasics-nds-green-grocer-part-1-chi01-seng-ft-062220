@@ -17,7 +17,7 @@ quantities = []
    list.each do |item, name|
       if quantities[item] != list[item]
         quantities[item] == list[item]
-        
+        quantities[item] += 1
       else
     end
   end
