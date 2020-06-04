@@ -24,5 +24,6 @@ cart.each do |list|
    end
    quantities << consolidated
  end
-quantities     
+end
+quantities 
 end
