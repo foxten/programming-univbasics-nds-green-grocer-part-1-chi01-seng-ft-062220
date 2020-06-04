@@ -19,5 +19,6 @@ quantities = []
         quantities[:count] +=1
     end
   end
+end
 quantities
 end
