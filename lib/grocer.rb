@@ -22,6 +22,7 @@ consolidated = {}
       else
     end
   end
+  quantities << consolidated
 end
 quantities
 end
