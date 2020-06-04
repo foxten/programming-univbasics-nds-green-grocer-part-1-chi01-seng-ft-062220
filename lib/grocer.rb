@@ -12,14 +12,4 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 def consolidate_cart(cart)
-quantities = []
-consolidated = {}
-cart.each do |items_array| 
-    items_array.each do |item, attribute_hash| 
-      consolidated[item] ||= attribute_hash 
-      consolidated[item][:count] ? consolidated[item][:count] += 1 :   
-      consolidated[item][:count] = 1 
-  end 
-end 
-consolidated
 end
