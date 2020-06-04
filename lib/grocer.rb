@@ -21,9 +21,8 @@ cart.each do |list|
    else
      consolidated[item][:count] = 1
    end
-   consolidated
+   quantities << consolidated
  end
- quantities << consolidated
  end
 quantities     
 end
