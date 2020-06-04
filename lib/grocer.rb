@@ -19,7 +19,7 @@ cart.each do |list|
   consolidated[item] || = characteristics
   consolidated[item][:count] ? consolidated[item][:count] +=1 : consolidated[item][:count] = 1
  end
+ end
  quantities << consolidated
-end
 quantities 
 end
