@@ -19,5 +19,5 @@ quantities = []
       end
       
         
-
+quantities
 end
