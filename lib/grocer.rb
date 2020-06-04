@@ -17,8 +17,8 @@ consolidated = {}
   cart.each do |list|
    item = list.keys[0]
       if consolidated[item] == nil
-        consolidated[:item] == list[:item]
-        consolidated[:count] +=1
+        consolidated[item] == list[:item]
+        consolidated[item][:count] +=1
       else
     end
   end
